@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Newsreader:wght@200;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.news-page {
+  width: min(100%, 720px);
+  margin: auto;
+}
+
+/* News List */
+.news-preview {
+  margin: 2% 2%;
+}
+
+.news-company {
+  font-size: 0.7rem;
+}
+
+.news-date {
+  font-weight: 100;
+  font-size: small;
+  color: rgb(138, 136, 136);
+}
+
+.news-content {
+  text-align: justify;
+}
+
+.container-fluid {
+  height: auto;
+  padding: 3% 10%;
+  background-color: rgb(230, 230, 230);
+  margin: 0% 0% 5% 0%;
+}
+
+.news-title {
+  font-size: 1rem;
+}
+
+/* Stocks List */
+.stocks-list {
+  width: min(100%, 420px);
+  margin: auto;
+}
+
+.stock {
+  margin: 2%;
+  /* background-color: rgb(165, 165, 165); */
+}
+
+/* .btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #fafafa;
+  border-color: #efe9f7;
+  margin: 2%;
+  color: black;
+  box-shadow: none;
+  text-align: left;
+}
+
+.btn-primary:hover {
+  background-color: rgb(91, 94, 94);
+  background-color: #fafafa;
+  border-color: #efe9f7;
+  margin: 2%;
+  color: black;
+} */
+
+.stock-title {
+  font-size: 1rem;
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+.stock-price {
+  font-size: 1rem;
+  /* color: rgb(0, 0, 0); */
+  text-align: right;
+  /* float: right; */
+}
+
+/* Buy sell page */
+.buy-sell {
+  width: min(100%, 420px);
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+
+
+.order-options {
+  border-radius: 2%;
+  /* background-color:#b3b2b2; */
+  background-color: rgb(165, 165, 165);
+  padding: 10%;
+}
+
+.current-transact-info {
+  border-radius: 2%;
+  background-color: rgb(165, 165, 165);
+  font-size: 1.3rem;
+  /* background-color: #b3b2b2; */
+  margin: 2% 0%;
+  padding: 0.5rem;
+}
+
+.current-transact-company {
+  float: left;
+  width: 50%;
+}
+
+.current-transact-marketprice {
+  /* float: right; */
+  width: 50%;
+} 

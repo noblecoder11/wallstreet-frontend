@@ -1,0 +1,21 @@
+.SearchBar{
+    width:90%;
+    height:6vh;
+    border:2px solid #c7c7c7;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0.5vh 1vw;
+}
+.Icon{
+    margin:1vh 1vw;
+    height: 6vh;
+    width:auto;
+}
+.Search_div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin:1vh 2vw;
+}

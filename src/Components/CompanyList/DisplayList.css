@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid rgb(85, 84, 84);
+  border-top: 2px solid rgb(85, 84, 84);
+  margin: 1vh 2vw;
+  padding: 1vh 1vw;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Display_container {
+  max-height: 69vh;
+  min-height: 69vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image: url("./img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

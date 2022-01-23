@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+
+/* This one is temporary adjustment made till working of navbar is corrected */
+.rules-page {
+  width: min(100%, 420px);
+  margin-left: 20%;
+}
+/* till here */
+
+.my_rules {
+  background: transparent;
+  text-align: left;
+}
+.card{
+  border:none;
+}
+.my_rules_header {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  box-shadow: 0px 2px 5px rgb(229, 229, 235);
+}

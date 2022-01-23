@@ -1,0 +1,31 @@
+.Company_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid rgb(190, 190, 190);
+  margin:1vh 2vw;
+  padding:1vh 1vw;
+  font-weight: bold;
+}
+.Company_Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Share_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.noMatchesdiv{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    width:100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1vh 1vw;
+    padding:1vh 1vw;
+}
